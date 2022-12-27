@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.tela{
+    position: relative;
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+.circulo{
+    position: absolute;
+    font-size: 50px;
+   
+}
+
+#retorna {
+    font-size: 70px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 0;
+}
+
+#retorna:hover{
+    border: 5px solid white;
+}
+
+#avanca {
+    font-size: 70px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+}
+
+#avanca:hover{
+    border: 5px solid white;
+}
