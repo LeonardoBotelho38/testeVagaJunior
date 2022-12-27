@@ -6,10 +6,12 @@
 
 .tela{
     position: relative;
-    
     height: 100vh;
     width: 100vw;
     background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .circulo{
@@ -21,10 +23,11 @@
 #retorna {
     font-size: 70px;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 10px;
     border: 0;
+    display: flex;
+    margin: 20px;
 }
 
 #retorna:hover{
@@ -35,10 +38,10 @@
     font-size: 70px;
     cursor: pointer;
     display: flex;
-    flex-direction: row;
     border-radius: 10px;
-    margin-top: 20px;
+    margin: 20px;
     border: 0;
+    
 }
 
 #avanca:hover{
